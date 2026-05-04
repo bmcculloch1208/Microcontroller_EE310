@@ -1,26 +1,24 @@
-/*
-*---------------------
-* Title: ADC and Interfacing to an LCD
-*---------------------
-* Program Details:
-* The purpose of this program is to utilize the built in ADC functionality of
-* PIC18 as well as interact with an LCD display.
+//
+//---------------------
+// Title: ADC and Interfacing to an LCD
+//---------------------
+// Program Details:
+// The purpose of this program is to utilize the built in ADC functionality of
+// PIC18 as well as interact with an LCD display.
     
-* Inputs: RB0-RB7, RC2
-* Outputs: RD0-RD3
-* Setup: The Curiosity Board, Accelerometer, LCD, LED
+// Inputs: RB0-RB7, RC2
+// Outputs: RD0-RD3
+// Setup: The Curiosity Board, Accelerometer, LCD, LED
 
-* Date: May 2nd, 2026
-* File Dependencies / Libraries: It is required to include the
-* MyConfigFile.inc in the Header Folder
-* Compiler: XC-8, v3.10
-* Author: Brandon McCulloch
-* Versions:
-*       V1.0: Original
- * Microcontroller: PIC18F47K42
-*/
-
-// PIC18F47K42 Configuration Bit Settings
+// Date: May 2nd, 2026
+// File Dependencies / Libraries: It is required to include the
+// MyConfigFile.inc in the Header Folder
+// Compiler: XC-8, v3.10
+// Author: Brandon McCulloch
+// Versions:
+//       V1.0: Original
+// Microcontroller: PIC18F47K42
+//
 
 // 'C' source line config statements
 
